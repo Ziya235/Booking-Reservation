@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+    <link rel="stylesheet" href="date.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="date.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-part">
+            <div class="work">
+                <i id="icon" class="fa fa-check" style="font-size:15px;color:white"></i>
+                </p>
+                <p class="word">Staff</p>
+            </div>
+            <div class="work">
+                <i id="icon" class="fa fa-check" style="font-size:15px;color:white"></i>
+                </p>
+                <p class="word">Service</p>
+            </div>
+            <div class="work">
+                <p class="number" style="background-color: #53D56C;">3</p>
+                <p style="color: #53D56C;" class="word">Date</p>
+            </div>
+            <div class="work">
+                <p class="number">4</p>
+                <button class="word">Confirmation</button>
+            </div>
+        </div>
+        <div class="main-part">
+            <div class="for_height">
+                <div class="first-part">
+                    <h1>Select service</h1>
+                    <div style="margin: 20px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+                            fill="#ADBFC7">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </div>
+                </div>
+                <hr>
+                <div class="second-part">
+                    <div class="calendar">
+                        <div class="month">
+                            <i class="fa fa-angle-left prev"></i>
+                            <div class="date" style="margin: 0 30px;"> </div>
+                            <i class="fa fa-angle-right next"></i>
+                        </div>
+                        <div class="calendar-container">
+                            <div class="weekdays">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <hr>
+                            <div class="days">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p id="timee">Time</p>
+                        <div class="time-container">
+                            <div class="active-date">Select date</div>
+                            <hr>
+                            <div id="vaxt">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr>
+            </div>
+            <div class="footer">
+                <button><a href="../Service/service.html">Back</a></button>
+                <button><a href="../Confirm/confrim.html" id="next">Next</a></button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
